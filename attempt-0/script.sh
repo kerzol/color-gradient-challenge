@@ -1,6 +1,6 @@
 #!/bin/bash
 
-convert ../image.ppm -compress none -crop 596x1+0+20  +repage  image-crop.ppm
+convert ../image.ppm -compress none -crop 580x1+0+0  +repage  image-crop.ppm
 
 tail -n+4 image-crop.ppm  | sed 's/ /\n/g' | grep -v '^$' > tmp
 
@@ -25,9 +25,9 @@ EOF
 paste tmp-hsv tmp | sort -g | awk '{print $4,$5,$6}' > tmp-sorted
 
 echo P3 > new-image.ppm
-echo 596 200 >> new-image.ppm
+echo 580 40 >> new-image.ppm
 echo 255 >> new-image.ppm
-for i in {1..200}; do
+for i in {1..40}; do
     cat tmp-sorted >> new-image.ppm
 done
 
