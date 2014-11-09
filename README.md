@@ -1,5 +1,5 @@
 # Color Gradient Challenge
-Author: Sasha Baranov @scr4t
+Author: Sasha Baranov http://github.com/scr4t
 
 ## Task description
 
@@ -15,6 +15,6 @@ If you can do this, then you are fucking awesome!
 
 ## Attempts
 
-* HUE-sorting by @kerzol
+* HUE-sorting by http://github.com/kerzol
 
   ![sorted colors by hue](/attempt-0/new-image.png)
