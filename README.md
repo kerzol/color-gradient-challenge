@@ -2,7 +2,7 @@
 
 ## Task description
 
-Please, take this colors : 
+Please, take these colors : 
 ![given colors](/image.png)
 
 And now, you need to "sort" given colors into the color gradient
